@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+config.local.*
+
+# Data and imaging files
+/data/
+data/
+datasets/
+*.nii
+*.nii.gz
+*.dcm
+*.nrrd
+*.mha
+*.mhd
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Model artifacts and generated outputs
+outputs/
+checkpoints/
+models/
+runs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.npy
+*.npz
+*.jsonl
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
